@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "ts-node-dev --respawn --inspect --transpile-only --ignore-watch node_modules src/index.ts"
+    "dev": "ts-node-dev -r tsconfig-paths --respawn --inspect --transpile-only --ignore-watch node_modules src/index.ts"
   },
   "dependencies": {
     "express": "^4.17.1"
