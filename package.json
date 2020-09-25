@@ -2,13 +2,13 @@
   "name": "setup-nodejs",
   "version": "1.0.0",
   "description": "This repository is my template for NodeJS projects, using TypeScript, Prettier, ESLint and EditorConfig",
-  "main": "index.js",
+  "main": "src/server.ts",
   "repository": "git@github.com:williamtorres1/setup-nodejs.git",
   "author": "William Torres <williamtorres074@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "ts-node-dev -r tsconfig-paths --respawn --inspect --transpile-only --ignore-watch node_modules src/index.ts"
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --respawn --inspect --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "dependencies": {
     "express": "^4.17.1"
