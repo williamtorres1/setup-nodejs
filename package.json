@@ -4,7 +4,7 @@
   "description": "This repository is my template for NodeJS projects, using TypeScript, Prettier, ESLint and EditorConfig",
   "main": "src/server.ts",
   "repository": "git@github.com:williamtorres1/setup-nodejs.git",
-  "author": "William Torres <williamtorres074@gmail.com>",
+  "author": "William Torres <contatowilliamtorres@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
